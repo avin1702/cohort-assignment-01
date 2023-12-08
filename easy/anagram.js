@@ -6,8 +6,7 @@
 
 function isAnagram(str1, str2) {
 
-  //we are using /\s+ because it will replace chunks of space string, 
-  //rather than replacing individual space string
+
   str1 = str1.replace(/\s+/g, '').toLowerCase()
   str2 = str2.replace(/\s+/g, '').toLowerCase()
   console.log(str1, str2)
